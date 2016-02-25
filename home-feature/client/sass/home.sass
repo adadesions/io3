@@ -4,14 +4,24 @@
 
 body
   font-family: Quark-LightBold , verdana, helvetica, sans-serif
-
 ///Intro Segment
 
 .intro-segment
+  position: relative
   background: url('/images/intro/home-bg.png')
   height: 100vh
   width: 100%
   background-size: cover
+  overflow: hidden
+  #vdo-bg
+    position: absolute
+    left: 0
+    top: -25%
+    width: auto
+    height: 50%
+    opacity: 0.3
+audio, canvas, progress, video
+  width: 100%
 .nav-button
   position: fixed
   right: 8em
@@ -61,7 +71,7 @@ body
   width: 50%
   height: 50%
   color: #fff
-  background-color: rgba(0,0,0,0.8)
+  background-color: rgba(66,65,83,0.8)
   text-align: center
   padding: 2em
   border-radius: 2em

@@ -37,7 +37,6 @@ Home = React.createClass({
           </a>
         </div>
         <div className="pusher">
-          <img src="/images/nav-arrow.png" className="nav-button" onMouseOver={this.showNav}/>
           <Intro />
           <WhatAda />
           <Course />
