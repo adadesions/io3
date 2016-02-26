@@ -58,7 +58,7 @@ Intro = React.createClass({
             </div>
           </div>
           <div className="logo">
-            <a href="#introSegment"><img src="/images/intro/adacode-home-logo-grow.png"/></a>
+            <img src="/images/intro/adacode-home-logo-grow.png"/>
           </div>
           <div className="content-intro">
             <h3>SCHOOL . BUILD . INNOVATION</h3>
