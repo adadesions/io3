@@ -6,19 +6,34 @@ Intro = React.createClass({
     }),
 
     $('.ui.sidebar').sidebar({
-        transition: 'overlay'
+        transition: 'overlay',
+        dimPage: false,
     }),
 
-    $('.ui.sticky').sticky({
-      context: '#introSegment'
-    })
 
+  	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+  		$(this).toggleClass('open');
+      $('.ui.sidebar')
+        .sidebar('toggle')
+      $('#navBar').toggleClass('nav-button-after')
+
+  	})
+
+    // $('.intro-segment').click(function(){
+    //   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+    //   $('.nav-bar').removeClass('nav-button-after')
+    // })
   },
 
-  showNav(){
-     $('.ui.sidebar')
-       .sidebar('toggle')
-   },
+  // showNav(){
+  //   $('.nav-bar').ready(function(){
+  //   	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
+  //   		$(this).toggleClass('open');
+  //       $('.ui.sidebar')
+  //         .sidebar('toggle')
+  //   	})
+  //   })
+  //  },
 
 
   render(){
@@ -28,14 +43,24 @@ Intro = React.createClass({
              <source src="/videos/intro/intro-test-1.webm" type="video/webm"/>
              <track kind="captions" src="captions.vtt" srcLang="en" label="English" />
           </video>
-          <div id="navBar" className="nav-bar">
-            <div className="logo">
-              <a href="#introSegment"><img src="/images/intro/adacode-home-logo-blue.png"/></a>
+          <div className="nav-bar-fixed">
+            <div id="navBar">
+              <div className="nav-button">
+                <div id="nav-icon2">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
             </div>
-            <img src="/images/nav-arrow.png" className="nav-button" onMouseOver={this.showNav}/>
+          </div>
+          <div className="logo">
+            <a href="#introSegment"><img src="/images/intro/adacode-home-logo-grow.png"/></a>
           </div>
           <div className="content-intro">
-            <h1>ADACODE.IO</h1>
             <h3>SCHOOL . BUILD . INNOVATION</h3>
           </div>
 

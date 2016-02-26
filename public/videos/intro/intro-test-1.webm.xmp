@@ -1,5 +1,5 @@
 <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
-<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        " rdfhash="374F1DC1FCEB6548A9F934245137CFF3" merged="0">
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c067 79.157747, 2015/03/30-23:40:42        " rdfhash="16E34C6704B9E6BD2D84C03DD4E198DC" merged="0">
  <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about=""
     xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
@@ -10,16 +10,19 @@
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#"
     xmlns:creatorAtom="http://ns.adobe.com/creatorAtom/1.0/"
-   xmpMM:InstanceID="xmp.iid:f1d6543f-3dde-e848-83d6-8031d8b58bda"
-   xmpMM:DocumentID="932d4002-57fd-9676-ab13-5cbe0000005d"
-   xmpMM:OriginalDocumentID="xmp.did:708cef06-3450-2043-b510-b5e9f12358b3"
-   xmp:MetadataDate="2016-02-25T14:18:22+07:00"
-   xmp:ModifyDate="2016-02-25T14:18:22+07:00"
+   xmpMM:InstanceID="xmp.iid:2cda98b1-49f1-ba47-ba43-4985d2f97571"
+   xmpMM:DocumentID="6b10bd4d-8ebc-9082-04f0-6a520000004d"
+   xmpMM:OriginalDocumentID="xmp.did:5af7573a-b0f7-1247-9ba5-18f9e46eb7d1"
+   xmp:MetadataDate="2016-02-26T15:07:23+07:00"
+   xmp:ModifyDate="2016-02-26T15:07:23+07:00"
    xmp:CreatorTool="Adobe Premiere Pro CC 2015 (Windows)"
-   xmp:CreateDate="2016-02-25T14:09:32+07:00"
+   xmp:CreateDate="2016-02-26T14:48:14+07:00"
    xmpDM:videoFrameRate="29.970030"
    xmpDM:videoFieldOrder="Progressive"
    xmpDM:videoPixelAspectRatio="1/1"
+   xmpDM:audioSampleRate="48000"
+   xmpDM:audioSampleType="Compressed"
+   xmpDM:audioChannelType="Stereo"
    xmpDM:startTimeScale="30000"
    xmpDM:startTimeSampleSize="1001"
    dc:format="WebM">
@@ -27,25 +30,25 @@
     <rdf:Seq>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="b920edcb-d0d5-1f29-9a37-d9280000008a"
-      stEvt:when="2016-02-25T14:18:22+07:00"
+      stEvt:instanceID="c5977c8a-36c7-1e51-c657-1d260000007a"
+      stEvt:when="2016-02-26T15:07:23+07:00"
       stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
       stEvt:changed="/"/>
      <rdf:li
       stEvt:action="created"
-      stEvt:instanceID="xmp.iid:8736e6d9-9384-2f4a-9fef-cc789b4ad93e"
-      stEvt:when="2016-02-25T14:06:04+07:00"
+      stEvt:instanceID="xmp.iid:98ca5309-d2db-a648-9d38-27ee65d72dc8"
+      stEvt:when="2016-02-26T14:37:38+07:00"
       stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:06f1ad7d-21ff-d443-ad67-2981772fc3d5"
-      stEvt:when="2016-02-25T14:18:22+07:00"
+      stEvt:instanceID="xmp.iid:7f43721d-e57a-5b4f-86be-85324271cb1d"
+      stEvt:when="2016-02-26T15:07:22+07:00"
       stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
       stEvt:changed="/"/>
      <rdf:li
       stEvt:action="saved"
-      stEvt:instanceID="xmp.iid:f1d6543f-3dde-e848-83d6-8031d8b58bda"
-      stEvt:when="2016-02-25T14:18:22+07:00"
+      stEvt:instanceID="xmp.iid:2cda98b1-49f1-ba47-ba43-4985d2f97571"
+      stEvt:when="2016-02-26T15:07:23+07:00"
       stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
       stEvt:changed="/metadata"/>
     </rdf:Seq>
@@ -55,155 +58,57 @@
      <rdf:li
       stRef:instanceID="14068ad4-04a4-7e63-f499-cd6f00000088"
       stRef:documentID="f53398de-9709-c4e1-0c73-684c0000005b"
-      stRef:fromPart="time:0d559394035200f254016000000"
-      stRef:toPart="time:3000386188800f254016000000d559394035200f254016000000"
+      stRef:fromPart="time:0d813664051200f254016000000"
+      stRef:toPart="time:1271350080000f254016000000d813664051200f254016000000"
       stRef:filePath="31001-14-Stock Video.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
       stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:254270016000f254016000000d279697017600f254016000000"
-      stRef:toPart="time:1779890112000f254016000000d279697017600f254016000000"
+      stRef:fromPart="time:389880691200f254016000000d33902668800f254016000000"
+      stRef:toPart="time:1237447411200f254016000000d33902668800f254016000000"
       stRef:filePath="static1-H264 75.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
       stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:508540032000f254016000000d203416012800f254016000000"
-      stRef:toPart="time:2796970176000f254016000000d203416012800f254016000000"
+      stRef:fromPart="time:389880691200f254016000000d33902668800f254016000000"
+      stRef:toPart="time:2051111462400f254016000000d33902668800f254016000000"
       stRef:filePath="static1-H264 75.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
       stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:711956044800f254016000000d228843014400f254016000000"
-      stRef:toPart="time:3559780224000f254016000000d228843014400f254016000000"
+      stRef:fromPart="time:389880691200f254016000000d33902668800f254016000000"
+      stRef:toPart="time:3297034540800f254016000000d33902668800f254016000000"
       stRef:filePath="static1-H264 75.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
       stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:940799059200f254016000000d127135008000f254016000000"
-      stRef:toPart="time:4331065939200f254016000000d127135008000f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:940799059200f254016000000d33902668800f254016000000"
-      stRef:toPart="time:4695519628800f254016000000d33902668800f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:940799059200f254016000000d25427001600f254016000000"
-      stRef:toPart="time:4865032972800f254016000000d25427001600f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:940799059200f254016000000d33902668800f254016000000"
-      stRef:toPart="time:4924362643200f254016000000d33902668800f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:940799059200f254016000000d25427001600f254016000000"
-      stRef:toPart="time:5051497651200f254016000000d25427001600f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:711956044800f254016000000d228843014400f254016000000"
-      stRef:toPart="time:5365097337600f254016000000d228843014400f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:254270016000f254016000000d777186332365f254016000000"
-      stRef:toPart="time:6865290432000f254016000000d777186332365f254016000000"
-      stRef:filePath="static1-H264 75.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-      stRef:documentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-      stRef:fromPart="time:0d254270016000f254016000000"
-      stRef:toPart="time:762810048000f254016000000d254270016000f254016000000"
+      stRef:fromPart="time:1754463110400f254016000000d1398485088000f254016000000"
+      stRef:toPart="time:5754978028800f254016000000d1398485088000f254016000000"
       stRef:filePath="static1-H264 75.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
       stRef:documentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
-      stRef:fromPart="time:0d542442700800f254016000000"
-      stRef:toPart="time:3788623238400f254016000000d542442700800f254016000000"
-      stRef:filePath="31001-11-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
-      stRef:documentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
-      stRef:fromPart="time:1305252748800f254016000000d237318681600f254016000000"
-      stRef:toPart="time:4458200947200f254016000000d237318681600f254016000000"
-      stRef:filePath="31001-11-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
-      stRef:documentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
-      stRef:fromPart="time:1856171116800f254016000000d135610675200f254016000000"
-      stRef:toPart="time:4729422297600f254016000000d135610675200f254016000000"
-      stRef:filePath="31001-11-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
-      stRef:documentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
-      stRef:fromPart="time:2017208793600f254016000000d33902668800f254016000000"
-      stRef:toPart="time:4890459974400f254016000000d33902668800f254016000000"
-      stRef:filePath="31001-11-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
-      stRef:documentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
-      stRef:fromPart="time:2085014131200f254016000000d93232339200f254016000000"
-      stRef:toPart="time:4958265312000f254016000000d93232339200f254016000000"
-      stRef:filePath="31001-11-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
-      stRef:documentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
-      stRef:fromPart="time:2203673472000f254016000000d288172684800f254016000000"
-      stRef:toPart="time:5076924652800f254016000000d288172684800f254016000000"
+      stRef:fromPart="time:1305252748800f254016000000d1245923078400f254016000000"
+      stRef:toPart="time:2085014131200f254016000000d1245923078400f254016000000"
       stRef:filePath="31001-11-Stock Video.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="5e02368e-db3b-4afc-9e26-af2c00000088"
       stRef:documentID="afb10702-0a6d-f990-44af-482b0000005b"
-      stRef:fromPart="time:0d762810048000f254016000000"
-      stRef:toPart="time:0d762810048000f254016000000"
-      stRef:filePath="31010-12-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="5e02368e-db3b-4afc-9e26-af2c00000088"
-      stRef:documentID="afb10702-0a6d-f990-44af-482b0000005b"
-      stRef:fromPart="time:762810048000f254016000000d762810048000f254016000000"
-      stRef:toPart="time:1017080064000f254016000000d762810048000f254016000000"
-      stRef:filePath="31010-12-Stock Video.mov"
-      stRef:maskMarkers="None"/>
-     <rdf:li
-      stRef:instanceID="5e02368e-db3b-4afc-9e26-af2c00000088"
-      stRef:documentID="afb10702-0a6d-f990-44af-482b0000005b"
-      stRef:fromPart="time:2169770803200f254016000000d737383046400f254016000000"
-      stRef:toPart="time:2059587129600f254016000000d737383046400f254016000000"
+      stRef:fromPart="time:805188384000f254016000000d1898549452800f254016000000"
+      stRef:toPart="time:0d1271350080000f254016000000"
       stRef:filePath="31010-12-Stock Video.mov"
       stRef:maskMarkers="None"/>
      <rdf:li
       stRef:instanceID="6efd7e98-a319-050f-5d30-df0b00000086"
       stRef:documentID="64b504b2-1004-85eb-d846-fb1600000059"
-      stRef:fromPart="time:0d2051111462400f254016000000"
-      stRef:toPart="time:5593940352000f254016000000d1271350080000f254016000000"
+      stRef:fromPart="time:0d3698216121600f254016000000"
+      stRef:toPart="time:3330937209600f254016000000d2424040819200f254016000000"
       stRef:filePath="31005-1-Stock Video.mov"
       stRef:maskMarkers="None"/>
     </rdf:Bag>
@@ -213,8 +118,8 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="2012-07-02T14:58:07Z"
-       xmp:ModifyDate="2016-02-25T14:06:04+07:00"
-       xmp:MetadataDate="2016-02-25T14:06:04+07:00"
+       xmp:ModifyDate="2016-02-26T14:35:38+07:00"
+       xmp:MetadataDate="2016-02-26T14:35:38+07:00"
        xmpMM:InstanceID="14068ad4-04a4-7e63-f499-cd6f00000088"
        xmpMM:DocumentID="f53398de-9709-c4e1-0c73-684c0000005b"
        xmpMM:OriginalDocumentID="xmp.did:0ED6B77507206811871FF3E3886361F3"
@@ -240,7 +145,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="14068ad4-04a4-7e63-f499-cd6f00000088"
-         stEvt:when="2016-02-25T14:06:04+07:00"
+         stEvt:when="2016-02-26T14:35:38+07:00"
          stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -256,13 +161,13 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="2012-08-15T09:36:12Z"
-       xmp:ModifyDate="2016-02-25T14:06:04+07:00"
-       xmp:MetadataDate="2016-02-25T14:06:04+07:00"
+       xmp:ModifyDate="2016-02-26T14:35:39+07:00"
+       xmp:MetadataDate="2016-02-26T14:35:39+07:00"
        xmpDM:startTimeScale="25"
        xmpDM:startTimeSampleSize="1"
        xmpMM:InstanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
        xmpMM:DocumentID="1e1fc9f2-952e-54e8-1b46-68c300000051"
-       xmpMM:OriginalDocumentID="xmp.did:87725b65-ae3b-8340-aa9b-d98c15246927">
+       xmpMM:OriginalDocumentID="xmp.did:1ab5a683-f805-e147-afe9-f563346c6153">
       <xmpDM:duration
        xmpDM:value="9000"
        xmpDM:scale="1/600"/>
@@ -274,7 +179,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="1927049b-2de0-9ca3-179c-ae7f0000007e"
-         stEvt:when="2016-02-25T14:06:04+07:00"
+         stEvt:when="2016-02-26T14:35:39+07:00"
          stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -284,8 +189,8 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="2012-07-02T14:41:02Z"
-       xmp:ModifyDate="2016-02-25T14:06:04+07:00"
-       xmp:MetadataDate="2016-02-25T14:06:04+07:00"
+       xmp:ModifyDate="2016-02-26T14:35:39+07:00"
+       xmp:MetadataDate="2016-02-26T14:35:39+07:00"
        xmpMM:InstanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
        xmpMM:DocumentID="09e1a19b-50bc-9c24-20cc-0a640000005b"
        xmpMM:OriginalDocumentID="xmp.did:D6E4D37407206811871FF3E3886361F3"
@@ -311,7 +216,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="4445a2ab-be44-7bfe-8ea5-bb1c00000088"
-         stEvt:when="2016-02-25T14:06:04+07:00"
+         stEvt:when="2016-02-26T14:35:39+07:00"
          stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -327,8 +232,8 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="2012-07-03T13:48:29Z"
-       xmp:ModifyDate="2016-02-25T14:06:04+07:00"
-       xmp:MetadataDate="2016-02-25T14:06:04+07:00"
+       xmp:ModifyDate="2016-02-26T14:35:38+07:00"
+       xmp:MetadataDate="2016-02-26T14:35:38+07:00"
        xmpDM:startTimeScale="30000"
        xmpDM:startTimeSampleSize="1001"
        xmpDM:videoFrameRate="29.970030"
@@ -382,7 +287,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="5e02368e-db3b-4afc-9e26-af2c00000088"
-         stEvt:when="2016-02-25T14:06:04+07:00"
+         stEvt:when="2016-02-26T14:35:38+07:00"
          stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -392,8 +297,8 @@
      <rdf:li>
       <rdf:Description
        xmp:CreateDate="2012-07-03T11:28:01Z"
-       xmp:ModifyDate="2016-02-25T14:06:04+07:00"
-       xmp:MetadataDate="2016-02-25T14:06:04+07:00"
+       xmp:ModifyDate="2016-02-26T14:35:39+07:00"
+       xmp:MetadataDate="2016-02-26T14:35:39+07:00"
        xmpMM:InstanceID="6efd7e98-a319-050f-5d30-df0b00000086"
        xmpMM:DocumentID="64b504b2-1004-85eb-d846-fb1600000059"
        xmpMM:OriginalDocumentID="xmp.did:F5FD6C8D07206811871FF3E3886361F3"
@@ -419,7 +324,7 @@
         <rdf:li
          stEvt:action="saved"
          stEvt:instanceID="6efd7e98-a319-050f-5d30-df0b00000086"
-         stEvt:when="2016-02-25T14:06:04+07:00"
+         stEvt:when="2016-02-26T14:35:39+07:00"
          stEvt:softwareAgent="Adobe Premiere Pro CC 2015 (Windows)"
          stEvt:changed="/"/>
        </rdf:Seq>
@@ -435,9 +340,9 @@
     </rdf:Bag>
    </xmpMM:Pantry>
    <xmpMM:DerivedFrom
-    stRef:instanceID="xmp.iid:8736e6d9-9384-2f4a-9fef-cc789b4ad93e"
-    stRef:documentID="xmp.did:8736e6d9-9384-2f4a-9fef-cc789b4ad93e"
-    stRef:originalDocumentID="xmp.did:8736e6d9-9384-2f4a-9fef-cc789b4ad93e"/>
+    stRef:instanceID="xmp.iid:98ca5309-d2db-a648-9d38-27ee65d72dc8"
+    stRef:documentID="xmp.did:98ca5309-d2db-a648-9d38-27ee65d72dc8"
+    stRef:originalDocumentID="xmp.did:98ca5309-d2db-a648-9d38-27ee65d72dc8"/>
    <creatorAtom:windowsAtom
     creatorAtom:extension=".prproj"
     creatorAtom:invocationFlags="/L"
@@ -452,7 +357,7 @@
     stDim:h="1440"
     stDim:unit="pixel"/>
    <xmpDM:duration
-    xmpDM:value="901"
+    xmpDM:value="844"
     xmpDM:scale="1001/30000"/>
    <xmpDM:startTimecode
     xmpDM:timeFormat="2997NonDropTimecode"
