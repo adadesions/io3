@@ -1,15 +1,24 @@
 AboutUs = React.createClass({
 
-
-
+  componentDidMount(){
+    $('.founder-one').hover(function(){
+      $('.shape').shape('flip back');
+    })
+  },
 
   render(){
     return(
       <div id="aboutUsSegment" className="aboutus-segment">
         <div className="founder-one">
-          <div className="ui small circular rotate left reveal image">
-            <img src="/images/partner/back-img.jpg" className="visible content"/>
-            <img src="/images/partner/front-img.gif" className="hidden content"/>
+          <div className="ui shape">
+            <div className="sides">
+              <div className="active side">
+                <img className="ui circular image" src="/images/partner/back-img.jpg"/>
+              </div>
+              <div className="side">
+                <img className="ui circular image" src="/images/partner/front-img.gif"/>
+              </div>
+            </div>
           </div>
         </div>
       </div>
