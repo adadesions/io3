@@ -17,24 +17,50 @@ Intro = React.createClass({
         .sidebar('toggle')
       $('#navBar').toggleClass('nav-button-after')
 
-  	})
+  	}),
 
-    // $('.intro-segment').click(function(){
-    //   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
-    //   $('.nav-bar').removeClass('nav-button-after')
-    // })
+    $('.nav-button').click(function(){
+      $('.ui.sidebar')
+        .sidebar('toggle')
+      $('#navBar').toggleClass('nav-button-after')
+
+  	}),
+
+    $('.content-intro').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('.logo').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('#whatAdaSegment').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('#courseSegment').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('#aboutUsSegment').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('#contactSegment').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('.footer').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    })
   },
-
-  // showNav(){
-  //   $('.nav-bar').ready(function(){
-  //   	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-  //   		$(this).toggleClass('open');
-  //       $('.ui.sidebar')
-  //         .sidebar('toggle')
-  //   	})
-  //   })
-  //  },
-
 
   render(){
     return(

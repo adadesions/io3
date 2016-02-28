@@ -1,6 +1,8 @@
 Course = React.createClass({
 
+  componentDidMount(){
 
+  },
 
 
   render(){
@@ -18,7 +20,7 @@ Course = React.createClass({
               adacode adacode adacode adacode<br/>
               adacode adacode adacode
               </h3>
-              <button className="ui button learn-more-button">LEARN MORE</button>
+              <button className="ui button learn-more-button"><h3>LEARN MORE</h3></button>
           </div>
         </div>
       </div>
