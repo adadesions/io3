@@ -15,14 +15,14 @@ Intro = React.createClass({
   		$(this).toggleClass('open');
       $('.ui.sidebar')
         .sidebar('toggle')
-      $('#navBar').toggleClass('nav-button-after')
+      $('#navBar').addClass('nav-button-after')
 
   	}),
 
     $('.nav-button').click(function(){
       $('.ui.sidebar')
         .sidebar('toggle')
-      $('#navBar').toggleClass('nav-button-after')
+      $('#navBar').addClass('nav-button-after')
 
   	}),
 

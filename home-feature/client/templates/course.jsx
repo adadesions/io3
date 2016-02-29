@@ -15,12 +15,9 @@ Course = React.createClass({
           <div className="text-course">
               <h1>COURSES</h1>
               <h3>
-              adacode adacode adacode<br/>
-              adacode adacode adacode adacode<br/>
-              adacode adacode adacode adacode<br/>
-              adacode adacode adacode
+
               </h3>
-              <button className="ui button learn-more-button"><h3>LEARN MORE</h3></button>
+              <button className="ui button learn-more-button"><h3>Comming Soon</h3></button>
           </div>
         </div>
       </div>
