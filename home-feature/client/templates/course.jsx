@@ -10,7 +10,7 @@ Course = React.createClass({
       <div id="courseSegment" className="course-segment">
         <div className="content-course">
           <div className="icon-play">
-            <a href="#"><img src="/images/course/course-play-button.png"/></a>
+            <a href="#courseSegment"><img src="/images/course/course-play-button.png"/></a>
           </div>
           <div className="text-course">
               <h1>COURSES</h1>
