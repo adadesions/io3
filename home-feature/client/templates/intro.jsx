@@ -83,10 +83,8 @@ Intro = React.createClass({
               </div>
             </div>
           </div>
-          <div className="logo">
-            <img src="/images/intro/adacode-home-logo-grow.png"/>
-          </div>
           <div className="content-intro">
+            <img src="/images/intro/adacode-home-logo-grow.png"/>
             <h3>SCHOOL . BUILD . INNOVATION</h3>
           </div>
 

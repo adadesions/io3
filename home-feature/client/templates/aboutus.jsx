@@ -3,22 +3,27 @@ AboutUs = React.createClass({
   componentDidMount(){
     $('.founder-one').hover(function(){
       $('.shape.one').shape('flip back');
+      $('.founder-one').toggleClass('lighter-shadow-one');
     }),
 
     $('.founder-two').hover(function(){
       $('.shape.two').shape('flip back');
+      $('.founder-two').toggleClass('lighter-shadow-two');
     }),
 
     $('.founder-three').hover(function(){
       $('.shape.three').shape('flip back');
+      $('.founder-three').toggleClass('lighter-shadow-three');
     }),
 
     $('.founder-four').hover(function(){
       $('.shape.four').shape('flip back');
+      $('.founder-four').toggleClass('lighter-shadow-four');
     }),
 
     $('.founder-five').hover(function(){
       $('.shape.five').shape('flip back');
+      $('.founder-five').toggleClass('lighter-shadow-five');
     }),
 
     $('.founder-six').hover(function(){
@@ -37,7 +42,7 @@ AboutUs = React.createClass({
                   <img className="ui circular image" src="/images/about/ceo.png"/>
                 </div>
                 <div className="side">
-                  <img className="ui circular image" src="/images/partner/front-img.gif"/>
+                  <img className="ui circular image" src="/images/about/ceo-back.png"/>
                 </div>
               </div>
             </div>
@@ -54,7 +59,7 @@ AboutUs = React.createClass({
                   <img className="ui circular image" src="/images/about/cto.png"/>
                 </div>
                 <div className="side">
-                  <img className="ui circular image" src="/images/partner/front-img.gif"/>
+                  <img className="ui circular image" src="/images/about/cto-back.png"/>
                 </div>
               </div>
             </div>
@@ -71,7 +76,7 @@ AboutUs = React.createClass({
                   <img className="ui circular image" src="/images/about/des.png"/>
                 </div>
                 <div className="side">
-                  <img className="ui circular image" src="/images/partner/front-img.gif"/>
+                  <img className="ui circular image" src="/images/about/des-back.png"/>
                 </div>
               </div>
             </div>
@@ -90,7 +95,7 @@ AboutUs = React.createClass({
                   <img className="ui circular image" src="/images/about/coo.png"/>
                 </div>
                 <div className="side">
-                  <img className="ui circular image" src="/images/partner/front-img.gif"/>
+                  <img className="ui circular image" src="/images/about/coo-back.png"/>
                 </div>
               </div>
             </div>
@@ -107,7 +112,7 @@ AboutUs = React.createClass({
                   <img className="ui circular image" src="/images/about/lec.png"/>
                 </div>
                 <div className="side">
-                  <img className="ui circular image" src="/images/partner/front-img.gif"/>
+                  <img className="ui circular image" src="/images/about/lec-back.png"/>
                 </div>
               </div>
             </div>
