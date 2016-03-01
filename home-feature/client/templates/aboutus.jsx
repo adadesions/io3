@@ -3,27 +3,22 @@ AboutUs = React.createClass({
   componentDidMount(){
     $('.founder-one').hover(function(){
       $('.shape.one').shape('flip back');
-      $('.founder-one').toggleClass('lighter-shadow-one');
     }),
 
     $('.founder-two').hover(function(){
       $('.shape.two').shape('flip back');
-      $('.founder-two').toggleClass('lighter-shadow-two');
     }),
 
     $('.founder-three').hover(function(){
       $('.shape.three').shape('flip back');
-      $('.founder-three').toggleClass('lighter-shadow-three');
     }),
 
     $('.founder-four').hover(function(){
       $('.shape.four').shape('flip back');
-      $('.founder-four').toggleClass('lighter-shadow-four');
     }),
 
     $('.founder-five').hover(function(){
       $('.shape.five').shape('flip back');
-      $('.founder-five').toggleClass('lighter-shadow-five');
     }),
 
     $('.founder-six').hover(function(){
@@ -48,8 +43,8 @@ AboutUs = React.createClass({
             </div>
             <div className="founder-one-detail">
               <h3>Ada Kaminkure</h3>
-              <p>"..........</p>
-              <p>.........."</p>
+              <p>"Programming is the new key of intelligent,<br/>
+              magic is happening here and now"</p>
             </div>
           </div>
           <div className="founder-two">
@@ -65,8 +60,8 @@ AboutUs = React.createClass({
             </div>
             <div className="founder-two-detail">
               <h3>Darunpob Prasutsangchant</h3>
-              <p>"..........</p>
-              <p>.........."</p>
+              <p>"Technology is change too fast,<br/>
+              Adacode.io become a middle man between you and tech"</p>
             </div>
           </div>
           <div className="founder-three">
@@ -82,8 +77,8 @@ AboutUs = React.createClass({
             </div>
             <div className="founder-three-detail">
               <h3>Chatpakon Pumuenwai</h3>
-              <p>"..........</p>
-              <p>.........."</p>
+              <p>"The best pair of ingredients of development<br/>
+              is Creative and Creative"</p>
             </div>
           </div>
         </div>
@@ -101,8 +96,8 @@ AboutUs = React.createClass({
             </div>
             <div className="founder-four-detail">
               <h3>Poompan Phonsanthia</h3>
-              <p>"..........</p>
-              <p>.........."</p>
+              <p>"Only one way to drive the world better<br/>
+              and faster is educate people"</p>
             </div>
           </div>
           <div className="founder-five">
@@ -118,8 +113,8 @@ AboutUs = React.createClass({
             </div>
             <div className="founder-five-detail">
               <h3>Pearwa Chonnitorn</h3>
-              <p>"..........</p>
-              <p>.........."</p>
+              <p>"English language is the key<br/>
+              to open your new world"</p>
             </div>
           </div>
         </div>

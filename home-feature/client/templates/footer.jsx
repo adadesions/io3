@@ -28,6 +28,7 @@ Footer = React.createClass({
     return(
       <div className="footer">
         <div className="partner">
+          <h2>Our Partner</h2>
           <div className="partner-row-one">
             <div className="partner-one">
               <a href="http://thaiprogrammer.org/"><img className="ui circular image" src="/images/footer/thaiprogramer-logo.png"/></a>
@@ -47,6 +48,12 @@ Footer = React.createClass({
               <a href="https://drivesoftcenter.net/"><img className="ui circular image" src="/images/footer/drivesoft-logo.png"/></a>
             </div>
           </div>
+        </div>
+        <div className="icon-bar-contact">
+          <a href="https://www.facebook.com/adacode.io/?ref=hl"><img src="/images/contact/contact-facebook-button.png"/></a>
+          <a href="#"><img src="/images/contact/contact-twitter-button.png"/></a>
+          <a href="#"><img src="/images/contact/contact-google-button.png"/></a>
+          <a href="#"><img src="/images/contact/contact-phone-button.png"/></a>
         </div>
       </div>
     )
