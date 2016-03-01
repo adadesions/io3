@@ -88,24 +88,24 @@ Intro = React.createClass({
             <h3>SCHOOL . BUILD . INNOVATION</h3>
           </div>
 
-          <div className="ui right demo vertical inverted sidebar labeled icon menu">
+          <div className="ui right sidebar inverted vertical menu">
             <a className="item">
-              SIGN UP
+              <p>SIGN UP</p>
             </a>
             <a className="item" href="#introSegment">
-              HOME
+              <p>HOME</p>
             </a>
             <a className="item" href="#whatAdaSegment">
-              ADACODE.IO
+              <p>ADACODE.IO</p>
             </a>
             <a className="item" href="#courseSegment">
-              COURSES
+              <p>COURSES</p>
             </a>
             <a className="item" href="#aboutUsSegment">
-              ABOUT US
+              <p>ABOUT US</p>
             </a>
             <a className="item" href="#contactSegment">
-              CONTACT US
+              <p>CONTACT US</p>
             </a>
           </div>
         </div>
