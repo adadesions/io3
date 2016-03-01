@@ -89,9 +89,6 @@ Intro = React.createClass({
           </div>
 
           <div className="ui right sidebar inverted vertical menu">
-            <a className="item">
-              <p>SIGN UP</p>
-            </a>
             <a className="item" href="#introSegment">
               <p>HOME</p>
             </a>

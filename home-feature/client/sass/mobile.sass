@@ -80,18 +80,18 @@ $breakpoint-mobile: 750px
     overflow: hidden
   .content-what-ada
     width: 95%
-    height: 60%
+    height: 50%
     color: #fff
-    background-color: rgba(66,65,83,0)
+    background-color: rgba(66,65,83,0.9)
     text-align: center
     padding: 2em
     padding-top: 4em
     border-radius: 3em
-    border: none
-    box-shadow: none
-    -webkit-box-shadow: none
-    -moz-box-shadow: none
-    box-shadow: none
+    border: 2.5em
+    box-shadow: 2em
+    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.1) inset
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.1) inset
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.1) inset
     word-wrap: break-word
     h1
       font-size: 65px
@@ -105,8 +105,45 @@ $breakpoint-mobile: 750px
       font-weight: lighter
       font-family: Quark-LightBold , verdana, helvetica, sans-serif
   .lifted
-    -moz-border-radius: none
-    border-radius: none
+    -moz-border-radius: 4px
+    border-radius: 4px
+    &:before
+      bottom: 15px
+      left: 10px
+      width: 50%
+      height: 20%
+      max-width: 300px
+      max-height: 100px
+      -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+      -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+      box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+      -webkit-transform: rotate(-3deg)
+      -moz-transform: rotate(-3deg)
+      -ms-transform: rotate(-3deg)
+      -o-transform: rotate(-3deg)
+      transform: rotate(-3deg)
+    &:after
+      bottom: 15px
+      left: 10px
+      width: 50%
+      height: 20%
+      max-width: 300px
+      max-height: 100px
+      -webkit-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+      -moz-box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+      box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7)
+      -webkit-transform: rotate(-3deg)
+      -moz-transform: rotate(-3deg)
+      -ms-transform: rotate(-3deg)
+      -o-transform: rotate(-3deg)
+      transform: rotate(-3deg)
+      right: 10px
+      left: auto
+      -webkit-transform: rotate(3deg)
+      -moz-transform: rotate(3deg)
+      -ms-transform: rotate(3deg)
+      -o-transform: rotate(3deg)
+      transform: rotate(3deg)
 
   ///Course Segment
   .course-segment
@@ -420,7 +457,7 @@ $breakpoint-mobile: 750px
     width: 95%
     height: 60%
     color: #fff
-    background-color: rgba(66,65,83,0)
+    background-color: rgba(66,65,83,0.9)
     text-align: center
     padding: 2em
     padding-top: 4em
