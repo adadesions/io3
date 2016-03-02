@@ -99,7 +99,7 @@ Intro = React.createClass({
               <p>TEAM</p>
             </a>
             <a className="item" href="#oursPartner">
-              <p>CONTACT US</p>
+              <p>OURS PARTNER</p>
             </a>
           </div>
         </div>
