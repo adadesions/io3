@@ -9,6 +9,7 @@ Home = React.createClass({
           <WhatAda />
           <Course />
           <AboutUs />
+          <Partner />
           <Footer />
         </div>
 

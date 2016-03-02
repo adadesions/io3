@@ -300,13 +300,14 @@ $breakpoint-mobile: 750px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
 
 
-  ///Footer
-  .footer
-    background: url('/images/footer/mobile/partners-footter-bg.png')
-    height: 100vh
+  ///Partner
+  .partner
+    background: url('/images/partner/mobile/partner-bg.png')
+    height: 71vh
     background-size: cover
     display: flex
     flex-flow: column
+    background-color: #302f3d
     h2
       font-size: 60px
     .partner-row-one
@@ -314,8 +315,9 @@ $breakpoint-mobile: 750px
       display: flex
       flex-flow: row
       height: 25vh
-      margin-top: 0
+      padding-top: 0
       margin-bottom: 3em
+      margin-left: 1em
     .partner-row-two
       width: 100%
       height: 25vh
@@ -370,17 +372,38 @@ $breakpoint-mobile: 750px
         width: 11em
         padding: 0.2em
         border: 9px solid #302F3D
+
+  ///Footer
+  .footer
+    background: none
+    height: 29vh
+    background-size: cover
+    display: flex
+    flex-flow: column
+    background-color: #302f3d
     .icon-bar-contact
       display: flex
-      flex-flow: row
-      justify-content: space-around
+      justify-content: center
       align-items: center
-      width: 80%
-      margin-left: 7.1em
-      margin-top: 19em
+      width: 100%
+      height: 50%
+      margin-left: 0
+      margin-right: 0
       img
         width: auto
         height: 5em
+      .center-contact
+        width: 100%
+        display: flex
+        flex-flow: row
+        justify-content: space-around
+    .copyright-logo
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 100%
+      height: 50%
+
 
 //////////Landscape
 @media only screen and (min-width: $breakpoint-mobile) and (max-width: 1199px) and (orientation : landscape)
@@ -640,14 +663,14 @@ $breakpoint-mobile: 750px
           font-size: 25px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
 
-
-  ///Footer
-  .footer
-    background: url('/images/footer/mobile/partners-footter-bg-landscape.png')
-    height: 200vh
+  ///Partner
+  .partner
+    background: url('/images/partner/mobile/partner-bg.png')
+    height: 142vh
     background-size: cover
     display: flex
     flex-flow: column
+    background-color: #302f3d
     h2
       font-size: 60px
     .partner-row-one
@@ -657,6 +680,7 @@ $breakpoint-mobile: 750px
       height: 25vh
       margin-top: 0
       margin-bottom: 3em
+      margin-left: -1em
     .partner-row-two
       width: 100%
       height: 25vh
@@ -712,15 +736,35 @@ $breakpoint-mobile: 750px
         width: 11em
         padding: 0.2em
         border: 9px solid #302F3D
+
+  ///Footer
+  .footer
+    background: none
+    height: 58vh
+    background-size: cover
+    display: flex
+    flex-flow: column
+    align-items: center
+    background-color: #302f3d
     .icon-bar-contact
       display: flex
       flex-flow: row
-      justify-content: flex-end
+      justify-content: center
       align-items: center
       width: 100%
-      margin-left: 0
-      margin-top: 30em
+      height: 50%
       img
         width: auto
         height: 5em
         margin-right: 1.5em
+      .center-contact
+        width: 80%
+        display: flex
+        flex-flow: row
+        justify-content: space-around
+    .copyright-logo
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 100%
+      height: 50%
