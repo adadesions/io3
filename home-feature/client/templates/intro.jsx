@@ -80,7 +80,7 @@ Intro = React.createClass({
               <p>COURSES</p>
             </a>
             <a className="item" href="#aboutUsSegment">
-              <p>ABOUT US</p>
+              <p>TEAM</p>
             </a>
             <a className="item" href="#contactSegment">
               <p>CONTACT US</p>

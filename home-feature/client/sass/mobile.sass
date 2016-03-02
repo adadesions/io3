@@ -195,108 +195,107 @@ $breakpoint-mobile: 750px
   .aboutus-segment
     background: url('/images/about/mobile/about-us-bg.png')
     background-color: #FFB74D
-    height: 100vh
+    height: 220vh
     background-size: cover
-    display: flex
-    align-items: center
-    flex-flow: column
-    justify-content: space-around
-    .founder-row-one
-      width: 90%
+    h2
+      order: 1
+      padding-top: 0.5em
+      text-shadow: 0 0 0.2em #000,0 0 0.2em #000
+      font-size: 80px
+      color: #fff
+      font-family: Quark-LightBold , verdana, helvetica, sans-serif
+      height: 10vh
+      align-self: center
+    .founder-group
       display: flex
-      flex-flow: row
-      justify-content: space-between
-      padding-top: 0
-      margin-left: 0
-    .founder-row-two
-      width: 90%
+      flex-flow: column-reverse
+      height: 220vh
+      justify-content: center
+    .founder-column-one
+      width: 100%
+      height: 50vh
       display: flex
-      flex-flow: row
-      justify-content: space-between
-      padding-left: 0
-      padding-right: 0
+      justify-content: center
+      align-items: center
+      margin-top: -15em
+    .founder-column-two
+      order: 1
+      width: 100%
+      height: 100vh
+      display: flex
+      justify-content: space-around
+      flex-flow: column-reverse
+      margin-top: -25em
+    .founder-column-three
+      width: 100%
+      height: 50vh
+      margin-top: 13em
+      display: flex
+      justify-content: center
+      align-items: center
     .founder-one
+      order: 1
       text-align: center
       color: #fff
+      width: 100%
       img
-        width: 20em
+        width: 36em
       .founder-one-detail
         margin-top: 2em
         h3
-          font-size: 38px
+          font-size: 65px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 30px
+          font-size: 45px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-two
       text-align: center
       color: #fff
+      width: 100%
       img
-        width: 20em
+        width: 36em
         margin-left: 1em
         margin-top: 35em
       .founder-two-detail
         margin-top: 2em
         h3
-          font-size: 38px
+          font-size: 65px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 30px
+          font-size: 45px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-three
       text-align: center
       color: #fff
+      width: 100%
+      margin-top: 10em
       img
-        width: 20em
+        width: 36em
       .founder-three-detail
         margin-top: 2em
         h3
-          font-size: 38px
+          font-size: 65px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 30px
+          font-size: 45px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-four
       text-align: center
       color: #fff
+      width: 100%
       img
-        width: 20em
+        width: 36em
       .founder-four-detail
         margin-top: 2em
         h3
-          font-size: 38px
+          font-size: 65px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 30px
-          font-family: Quark-LightBold , verdana, helvetica, sans-serif
-    .founder-five
-      text-align: center
-      color: #fff
-      img
-        width: 20em
-      .founder-five-detail
-        margin-top: 2em
-        h3
-          font-size: 38px
-          font-family: Quark-LightBold , verdana, helvetica, sans-serif
-        p
-          line-height: 1.5em
-          font-size: 30px
-          font-family: Quark-LightBold , verdana, helvetica, sans-serif
-    .founder-six
-      text-align: center
-      color: #fff
-      .founder-six-detail
-        margin-top: 2em
-        h3
-          font-size: 34px
-          font-family: Quark-LightBold , verdana, helvetica, sans-serif
-        p
-          font-size: 25px
+          font-size: 45px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
 
 
@@ -562,23 +561,35 @@ $breakpoint-mobile: 750px
     align-items: center
     flex-flow: column
     justify-content: space-around
-    .founder-row-one
-      width: 90%
+    h2
+      padding-top: 2em
+    .founder-group
       display: flex
       flex-flow: row
-      justify-content: space-between
-      padding-top: 1em
-      margin-left: 0
-    .founder-row-two
-      width: 90%
+      height: 200vh
+    .founder-column-one
+      width: 33.33%
+      height: 100%
       display: flex
-      flex-flow: row
-      justify-content: space-between
-      padding-left: 0
-      padding-right: 0
+      justify-content: center
+      align-items: center
+    .founder-column-two
+      width: 33.33%
+      height: 100%
+      display: flex
+      justify-content: space-around
+      flex-flow: column
+    .founder-column-three
+      width: 33.33%
+      height: 100%
+      display: flex
+      justify-content: center
+      align-items: center
     .founder-one
       text-align: center
       color: #fff
+      width: 100%
+      margin-top: -2em
       img
         width: 15em
         border: 5px solid #212121
@@ -589,7 +600,7 @@ $breakpoint-mobile: 750px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 24px
+          font-size: 20px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-two
       text-align: center
@@ -604,11 +615,13 @@ $breakpoint-mobile: 750px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 24px
+          font-size: 20px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-three
       text-align: center
       color: #fff
+      width: 100%
+      margin-bottom: 10em
       img
         width: 15em
         border: 5px solid #212121
@@ -619,7 +632,7 @@ $breakpoint-mobile: 750px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 24px
+          font-size: 20px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-four
       text-align: center
@@ -634,7 +647,7 @@ $breakpoint-mobile: 750px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
         p
           line-height: 1.5em
-          font-size: 24px
+          font-size: 20px
           font-family: Quark-LightBold , verdana, helvetica, sans-serif
     .founder-five
       text-align: center

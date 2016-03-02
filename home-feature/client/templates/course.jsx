@@ -17,7 +17,7 @@ Course = React.createClass({
               <h3>
 
               </h3>
-              <button className="ui button learn-more-button"><h3>Comming Soon</h3></button>
+              <button className="ui button learn-more-button"><h3>Coming Soon</h3></button>
           </div>
         </div>
       </div>
