@@ -1,7 +1,6 @@
 Navigator = React.createClass({
 
   componentDidMount(){
-
     $('#nav-icon2').click(function(){
   		$(this).toggleClass('open');
       $('.ui.sidebar')
@@ -14,7 +13,6 @@ Navigator = React.createClass({
         .sidebar('toggle')
       $('#navBar').toggleClass('nav-button-after')
   	})
-
   },
 
   render(){

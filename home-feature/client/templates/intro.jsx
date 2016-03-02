@@ -1,7 +1,6 @@
 Intro = React.createClass({
 
   componentDidMount(){
-
     $('.item').click(function() {
       $('body').css('display', 'none');
       $('body').fadeIn(1000);
@@ -99,7 +98,7 @@ Intro = React.createClass({
               <p>TEAM</p>
             </a>
             <a className="item" href="#oursPartner">
-              <p>OURS PARTNER</p>
+              <p>OUR PARTNERS</p>
             </a>
           </div>
         </div>
