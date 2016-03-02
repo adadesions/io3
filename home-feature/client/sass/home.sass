@@ -8,15 +8,17 @@ body
 
 .intro-segment
   position: relative
-  background: rgba(0,0,0,0.5)
+  background: rgba(0,0,0,0.9)
   height: 100vh
   width: 100%
   background-size: cover
   overflow: hidden
   display: flex
   justify-content: center
+  z-index: +100
   #vdo-bg
     position: absolute
+    opacity: 0.5
     left: 0
     top: -25%
     width: auto
@@ -33,12 +35,13 @@ audio, canvas, progress, video
   position: fixed
   top: 0
   right: 3em
+  z-index: +1000
 ///Navigator Before Click
 .nav-button
   cursor: pointer
   width: 5em
   height: 5em
-  position: sticky
+  position: relative
   float: right
   margin-right: 3em
   -webkit-animation-name: example
@@ -70,7 +73,8 @@ audio, canvas, progress, video
   height: 5em
   position: relative
   float: right
-  margin-right: 6em
+  margin-right: 8em
+  z-index: +1000
   -webkit-animation-name: after
   -webkit-animation-duration: 4s
   -webkit-animation-iteration-count: 3

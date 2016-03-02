@@ -10,21 +10,10 @@ Intro = React.createClass({
         dimPage: false,
     }),
 
-
-  	$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-  		$(this).toggleClass('open');
-      $('.ui.sidebar')
-        .sidebar('toggle')
-      $('#navBar').addClass('nav-button-after')
-
-  	}),
-
-    $('.nav-button').click(function(){
-      $('.ui.sidebar')
-        .sidebar('toggle')
-      $('#navBar').addClass('nav-button-after')
-
-  	}),
+    $('#vdo-bg_html5_api').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
 
     $('.content-intro').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
@@ -56,6 +45,11 @@ Intro = React.createClass({
       $('#navBar').removeClass('nav-button-after')
     }),
 
+    $('.partner').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    }),
+
     $('.footer').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
       $('#navBar').removeClass('nav-button-after')
@@ -69,20 +63,7 @@ Intro = React.createClass({
              <source src="/videos/intro/intro-test-1.webm" type="video/webm"/>
              <track kind="captions" src="captions.vtt" srcLang="en" label="English" />
           </video>
-          <div className="nav-bar-fixed">
-            <div id="navBar">
-              <div className="nav-button">
-                <div id="nav-icon2">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </div>
-              </div>
-            </div>
-          </div>
+
           <div className="content-intro">
             <img src="/images/intro/adacode-home-logo-grow.png"/>
             <h3>SCHOOL . BUILD . INNOVATION</h3>

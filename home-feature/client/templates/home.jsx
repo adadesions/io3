@@ -4,6 +4,7 @@ Home = React.createClass({
   render(){
     return(
       <div className="home-feature">
+        <Navigator />
         <div className="pusher">
           <Intro />
           <WhatAda />
@@ -12,7 +13,6 @@ Home = React.createClass({
           <Partner />
           <Footer />
         </div>
-
       </div>
       )
   }
