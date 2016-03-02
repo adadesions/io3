@@ -1,6 +1,22 @@
 Intro = React.createClass({
 
   componentDidMount(){
+
+    $('.item').click(function() {
+      $('body').css('display', 'none');
+      $('body').fadeIn(1000);
+
+      $('.link').click(function() {
+        event.preventDefault();
+        newLocation = this.href;
+        $('body').fadeOut(2000, newpage);
+      });
+
+      function newpage() {
+        window.location = newLocation;
+      }
+    })
+
     videojs('vdo-bg').ready(function() {
       this.play();
     }),
@@ -82,7 +98,7 @@ Intro = React.createClass({
             <a className="item" href="#aboutUsSegment">
               <p>TEAM</p>
             </a>
-            <a className="item" href="#contactSegment">
+            <a className="item" href="#oursPartner">
               <p>CONTACT US</p>
             </a>
           </div>
