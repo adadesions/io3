@@ -20,13 +20,18 @@ Partner = React.createClass({
 
     $('.partner-five').hover(function(){
       $('.partner-five').toggleClass('partner-hover');
+    }),
+
+    $('#oursPartner').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
     })
 
   },
 
   render(){
     return(
-      <div id="oursPartner" className="partner">
+      <div id="Partnersr" className="partner">
         <h2>Our Partners</h2>
         <div className="partner-row-one">
           <div className="partner-one">

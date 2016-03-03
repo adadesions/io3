@@ -1,7 +1,17 @@
 WhatAda = React.createClass({
+
+  componentDidMount(){
+
+    $('#whatAdaSegment').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
+    })
+
+  },
+
   render(){
     return(
-      <div id="whatAdaSegment" className="what-adaode-segment">
+      <div id="Whatada" className="what-adaode-segment">
         <div className="content-what-ada lifted">
           <h1>We don't want to debate</h1>
           <h1>how educational system bad it is,</h1>

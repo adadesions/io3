@@ -15,13 +15,18 @@ AboutUs = React.createClass({
 
     $('.founder-four img').hover(function(){
       $('.shape.four').shape('flip back');
+    }),
+
+    $('#aboutUsSegment').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
     })
 
   },
 
   render(){
     return(
-      <div id="aboutUsSegment" className="aboutus-segment">
+      <div id="Teams" className="aboutus-segment">
         <div className="founder-group">
           <div className="founder-column-one">
             <div className="founder-two">
