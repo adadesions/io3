@@ -1,20 +1,6 @@
 Intro = React.createClass({
 
   componentDidMount(){
-    $('.item').click(function() {
-      $('body').css('display', 'none');
-      $('body').fadeIn(1000);
-
-      $('.link').click(function() {
-        event.preventDefault();
-        newLocation = this.href;
-        $('body').fadeOut(2000, newpage);
-      });
-
-      function newpage() {
-        window.location = newLocation;
-      }
-    })
 
     videojs('vdo-bg').ready(function() {
       this.play();

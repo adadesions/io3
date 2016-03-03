@@ -11,7 +11,7 @@ WhatAda = React.createClass({
 
   render(){
     return(
-      <div id="Whatada" className="what-adaode-segment">
+      <div id="Whatadacode" className="what-adaode-segment">
         <div className="content-what-ada lifted">
           <h1>We don't want to debate</h1>
           <h1>how educational system bad it is,</h1>

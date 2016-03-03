@@ -1,6 +1,22 @@
 Navigator = React.createClass({
 
   componentDidMount(){
+
+    $('.item').click(function() {
+      $('body').css('display', 'none');
+      $('body').fadeIn(1000);
+
+      $('.link').click(function() {
+        event.preventDefault();
+        newLocation = this.href;
+        $('body').fadeOut(2000, newpage);
+      });
+
+      function newpage() {
+        window.location = newLocation;
+      }
+    }),
+
     $('#nav-icon2').click(function(){
   		$(this).toggleClass('open');
       $('.ui.sidebar')
@@ -51,7 +67,7 @@ Navigator = React.createClass({
           <a className="item" href="#Intro">
             <p>HOME</p>
           </a>
-          <a className="item" href="#Whatada">
+          <a className="item" href="#Whatadacode">
             <p>ADACODE.IO</p>
           </a>
           <a className="item" href="#Course">

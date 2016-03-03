@@ -31,7 +31,7 @@ Partner = React.createClass({
 
   render(){
     return(
-      <div id="Partnersr" className="partner">
+      <div id="Partners" className="partner">
         <h2>Our Partners</h2>
         <div className="partner-row-one">
           <div className="partner-one">
