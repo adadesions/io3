@@ -42,7 +42,7 @@ AboutUs = React.createClass({
               </div>
               <div className="founder-two-detail">
                 <h3>Darunpob Prasutsangchant</h3>
-                <p>"Technology is change really fast,<br/>
+                <p>"Technology is changing really fast,<br/>
                 Adacode.io become a middleman between you and tech"</p>
               </div>
             </div>
