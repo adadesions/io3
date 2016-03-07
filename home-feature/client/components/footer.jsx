@@ -27,7 +27,7 @@ Footer = React.createClass({
             <img id="contact-detail" src="/images/contact/contact-phone-button.png"/>
           </div>
           <div className="ui custom popup top left transition hidden-popup">
-            <h3>Phone : 0919594945(Ada)</h3>
+            <h3>Phone : (+66)91-9594-945(Ada)</h3>
           </div>
         </div>
         <hr/>
