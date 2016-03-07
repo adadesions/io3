@@ -2,7 +2,7 @@ WhatAda = React.createClass({
 
   componentDidMount(){
 
-    $('#whatAdaSegment').click(function(){
+    $('#Whatadacode').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
       $('#navBar').removeClass('nav-button-after')
     })

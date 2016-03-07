@@ -2,7 +2,9 @@
   font-family: Quark-LightBold
   src: url('/fonts/Quark-LightBold/Quark-Light.otf') format("truetype")
 
-body
+.home-feature
+  background: url('/images/bg.png')
+  background-repeat: repeat-y
   font-family: Quark-LightBold , verdana, helvetica, sans-serif
 ///Intro Segment
 
@@ -394,7 +396,6 @@ audio, canvas, progress, video
   justify-content: center
   align-items: center
   background: url('/images/what-is/WhatIs-bg.png')
-  background-color: #9E9E9E
   height: 100vh
   background-size: cover
   overflow: hidden
@@ -478,7 +479,6 @@ audio, canvas, progress, video
   justify-content: flex-end
   align-items: center
   background: url('/images/course/course-intro-bg.png')
-  background-color: #4FC3F7
   height: 100vh
   background-size: cover
 
@@ -523,7 +523,6 @@ audio, canvas, progress, video
 ///About Segment
 .aboutus-segment
   background: url('/images/about/about-bg.png')
-  background-color: #FFB74D
   height: 100vh
   background-size: cover
   text-align: center
@@ -671,7 +670,6 @@ audio, canvas, progress, video
 ///Partner
 .partner
   background: url('/images/partner/partner-bg.png')
-  background-color: #FFB74D
   height: 69vh
   background-size: cover
   display: flex
@@ -752,7 +750,6 @@ audio, canvas, progress, video
 ///Footer
 .footer
   background: none
-  background-color: #FFB74D
   height: 31vh
   background-size: cover
   display: flex
@@ -784,6 +781,11 @@ audio, canvas, progress, video
     img
       width: 30em
       height: auto
-
-
+.hidden-popup
+  visibility: hidden
+#contact-detail
+  cursor: pointer
+  h3
+    font-weight: lighter
+    font-family: Quark-LightBold , verdana, helvetica, sans-serif
 ////////////////////////////////////////////////////////////////////////

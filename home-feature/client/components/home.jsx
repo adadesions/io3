@@ -14,7 +14,6 @@ Home = React.createClass({
           <Footer />
         </div>
       </div>
-      )
+    )
   }
-
 })

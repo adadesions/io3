@@ -64,6 +64,9 @@ Navigator = React.createClass({
           </div>
         </div>
         <div className="ui right sidebar inverted vertical menu">
+          <a className="item logo-sidebar" href="#Intro">
+            <img src="/images/intro/adacode-home-logo-grow.png"/>
+          </a>
           <a className="item" href="#Intro">
             <p>HOME</p>
           </a>

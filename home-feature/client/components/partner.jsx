@@ -22,7 +22,7 @@ Partner = React.createClass({
       $('.partner-five').toggleClass('partner-hover');
     }),
 
-    $('#oursPartner').click(function(){
+    $('#Partners').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
       $('#navBar').removeClass('nav-button-after')
     })

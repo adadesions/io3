@@ -1,23 +1,23 @@
 AboutUs = React.createClass({
 
   componentDidMount(){
-    $('.founder-one img').hover(function(){
+    $('.founder-one').hover(function(){
       $('.shape.one').shape('flip back');
     }),
 
-    $('.founder-two img').hover(function(){
+    $('.founder-two').hover(function(){
       $('.shape.two').shape('flip back');
     }),
 
-    $('.founder-three img').hover(function(){
+    $('.founder-three').hover(function(){
       $('.shape.three').shape('flip back');
     }),
 
-    $('.founder-four img').hover(function(){
+    $('.founder-four').hover(function(){
       $('.shape.four').shape('flip back');
     }),
 
-    $('#aboutUsSegment').click(function(){
+    $('#Teams').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
       $('#navBar').removeClass('nav-button-after')
     })
@@ -65,7 +65,7 @@ AboutUs = React.createClass({
                 magic is happening here and now"</p>
               </div>
             </div>
-            <h2>ADACODE.IO's TEAM</h2>
+            <h2>ADACODE MAFIA</h2>
             <div className="founder-three">
               <div className="ui shape three">
                 <div className="sides">

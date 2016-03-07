@@ -2,7 +2,7 @@ Course = React.createClass({
 
   componentDidMount(){
 
-    $('#courseSegment').click(function(){
+    $('#Course').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
       $('#navBar').removeClass('nav-button-after')
     })
@@ -15,7 +15,7 @@ Course = React.createClass({
       <div id="Course" className="course-segment">
         <div className="content-course">
           <div className="icon-play">
-            <a href="#courseSegment"><img src="/images/course/course-play-button.png"/></a>
+            <a href="/school"><img src="/images/course/course-play-button.png"/></a>
           </div>
           <div className="text-course">
               <h1>COURSES</h1>

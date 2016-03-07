@@ -11,6 +11,11 @@ Intro = React.createClass({
     $('#vdo-bg_html5_api').click(function(){
       $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
       $('#navBar').removeClass('nav-button-after')
+    }),
+
+    $('.content-intro').click(function(){
+      $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').removeClass('open')
+      $('#navBar').removeClass('nav-button-after')
     })
 
   },
