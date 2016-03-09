@@ -67,19 +67,19 @@ Navigator = React.createClass({
           <a className="item logo-sidebar" href="#Intro">
             <img src="/images/intro/adacode-home-logo-grow.png"/>
           </a>
-          <a className="item" href="#Intro">
+          <a className="tab item" href="#Intro">
             <p>HOME</p>
           </a>
-          <a className="item" href="#Whatadacode">
+          <a className="tab item" href="#Whatadacode">
             <p>ADACODE.IO</p>
           </a>
-          <a className="item" href="#Course">
+          <a className="tab item" href="#Course">
             <p>COURSES</p>
           </a>
-          <a className="item" href="#Teams">
+          <a className="tab item" href="#Teams">
             <p>TEAM</p>
           </a>
-          <a className="item" href="#Partners">
+          <a className="tab item" href="#Partners">
             <p>OUR PARTNERS</p>
           </a>
         </div>

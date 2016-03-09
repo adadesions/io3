@@ -21,9 +21,9 @@ fourseven:scss
 react
 flemay:less-autoprefixer
 jrudio:videojs
-reactrouter:react-router
 
 
 npm-container
-meteorhacks:npm
-cosmos:browserify
+materialize:materialize
+meteorhacks:flow-router
+kadira:react-layout
