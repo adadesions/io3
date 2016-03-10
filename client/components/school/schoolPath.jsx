@@ -14,7 +14,7 @@ Path = React.createClass({
           <div className="section">
             <div className="head-course">
               <img src="/images/about/ceo.png" className="circle" />
-              <div className="card-panel teal">
+              <div className="card-panel grey darken-1">
                 <span className="white-text">
                   <h4>SPEND SOME TIME WITH THIS POWERFUL
                   <br/>SCRIPTING LANGUAGE AND LEARN TO BUILD
