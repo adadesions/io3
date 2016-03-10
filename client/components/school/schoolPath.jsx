@@ -27,7 +27,7 @@ Path = React.createClass({
           <div className="section">
             <div className="path-blog">
               <div className="col s12 m4">
-                <div id="levelOne" className="waves-effect waves-light card-panel grey darken-1">
+                <div id="levelOne" className="waves-effect waves-blue card-panel grey darken-1">
                   <span className="white-text">
                     <h1>LEVEL</h1>
                     <h1>1</h1>
@@ -35,7 +35,7 @@ Path = React.createClass({
                 </div>
               </div>
               <div className="col s12 m4">
-                <div id="levelTwo" className="waves-effect waves-light card-panel grey darken-1">
+                <div id="levelTwo" className="waves-effect waves-blue card-panel grey darken-1">
                   <span className="white-text">
                     <h1>LEVEL</h1>
                     <h1>2</h1>
@@ -43,7 +43,7 @@ Path = React.createClass({
                 </div>
               </div>
               <div className="col s12 m4">
-                <div id="levelThree" className="waves-effect waves-light card-panel grey darken-1">
+                <div id="levelThree" className="waves-effect waves-blue card-panel grey darken-1">
                   <span className="white-text">
                     <h1>LEVEL</h1>
                     <h1>3</h1>
