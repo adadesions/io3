@@ -2,22 +2,7 @@ Path = React.createClass({
 
   componentDidMount(){
     $('#levelOne').click(function(){
-      $('#levelBlog li').addClass('test')
-    }),
-
-    $('#levelOne').click(function() {
-      $('body').css('display', 'none');
-      $('body').fadeIn(1000);
-
-      $('.link').click(function() {
-        event.preventDefault();
-        newLocation = this.href;
-        $('body').fadeOut(2000, newpage);
-      });
-
-      function newpage() {
-        window.location = newLocation;
-      }
+      Materialize.showStaggeredList('#levelBlog')
     })
   },
 
