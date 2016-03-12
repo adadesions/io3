@@ -24,6 +24,6 @@ jrudio:videojs
 
 
 npm-container
-materialize:materialize
 meteorhacks:flow-router
 kadira:react-layout
+poetic:materialize-scss
