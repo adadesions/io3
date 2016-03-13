@@ -8,6 +8,39 @@ Path = React.createClass({
 
     $(document).ready(function(){
       $('.parallax').parallax();
+    }),
+
+    (function($) {
+    "use strict"
+
+    var $navbar = $(".nav"),
+        y_pos = $navbar.offset().top,
+        height = $navbar.height()
+
+    //scroll top 0 sticky
+    $(document).scroll(function() {
+        var scrollTop = $(this).scrollTop();
+        if (scrollTop > 0) {
+          $navbar.addClass("sticky");
+        } else {
+          $navbar.removeClass("sticky");
+        }
+    })
+
+    //section sticky
+    /*$(document).scroll(function() {
+        var scrollTop = $(this).scrollTop();
+        if ($(window).height() > scrollTop) {
+          $navbar.removeClass("sticky");
+        } else {
+          $navbar.addClass("sticky");
+        }
+    });*/
+
+    })(jQuery, undefined)
+
+    $(".menu").click(function(){
+      $("#nav").toggleClass("open");
     })
 
   },
@@ -16,8 +49,10 @@ Path = React.createClass({
     return(
       <div className="path-segment">
         <NavigatorSchool />
+        <NavigatorSchoolMobile />
+        <div className="path-section">
           <div className="section">
-            <div className="head-course">
+            <div id="headCourse" className="head-course">
               <img src="/images/school/course-item/js-icon.png" className="circle" />
               <div className="card-panel pink accent-1">
                 <span className="white-text">
@@ -97,6 +132,7 @@ Path = React.createClass({
               </ul>
             </div>
           </div>
+        </div>
       </div>
     )
   }

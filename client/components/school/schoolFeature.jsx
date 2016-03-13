@@ -44,36 +44,16 @@ School = React.createClass({
     return(
       <div className="school-blog">
         <NavigatorSchool />
+        <NavigatorSchoolMobile />
         <div className="header-school">
-          <div className="section">
-            <div className="container">
-              <nav id="nav" className="nav">
-                <button className="menu">
-                  <em className="hamburger"></em>
-                </button>
-                <div className="brand">
-                  <a href="#"><img src="images/intro/adacode-home-logo.png"/></a>
-                </div>
-                <ul className="navbar">
-                  <li>
-                    <a href="#about">About</a>
-                  </li>
-                  <li>
-                    <a href="#services">Services</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contact</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
           <div className="section">
             <div className="school-content">
               <div className="container">
                 <div className="school-content-blog">
                   <h1>Welcome to AdaCode.io Skool</h1>
-                  <h1>Keys of success are too many, <br/>but one key of failure is "UNEDUCATED"</h1>
+                  <h1>Keys of success are too many,</h1>
+                  <h1>but one key of failure is</h1>
+                  <h1>"UNEDUCATED"</h1>
                 </div>
               </div>
             </div>

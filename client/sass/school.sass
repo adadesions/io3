@@ -1,8 +1,40 @@
 @font-face
   font-family: Quark-LightBold
   src: url('/fonts/Quark-LightBold/Quark-Light.otf') format("truetype")
-
+@font-face
+  font-family: 'Fredoka One'
+  font-style: normal
+  font-weight: 400
+  src: local('Fredoka One'), local('FredokaOne-Regular'), url(http://fonts.gstatic.com/s/fredokaone/v4/SL0aFUFfkFMMdariYQ3_YY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2')
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
+@font-face
+  font-family: 'Arvo'
+  font-style: normal
+  font-weight: 400
+  src: local('Arvo'), url(http://fonts.gstatic.com/s/arvo/v9/J0GYVYTizO1mjpT3aOcSbQ.woff2) format('woff2')
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000
 ///Navigator School
+
+.nav-school
+  nav
+    background-color: rgba(239,168,0,0.4)
+    box-shadow: none
+  .sticky
+    background-color: rgba(0,96,150,0.9)
+    ul
+      li
+        a
+          color: #fff
+    .brand
+      line-height: 100px
+  .section
+    height: 0%
+  .brand
+    img
+      height: 2.5em
+      width: auto
+
+///Navigator School Mobile
 .btn-floating.btn-large
   width: 75.5px
   height: 75.5px
@@ -27,10 +59,13 @@
     padding-top: 0.5em
     padding-bottom: 0.5em
     text-align: center
-    color: #fff
-    font-size: 50px
+    color: #302f3d
+    font-size: 40px
     font-weight: lighter
-    font-family: Quark-LightBold , verdana, helvetica, sans-serif
+    font: normal 60px/1 "Fredoka One", Helvetica, sans-serif
+    -webkit-text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+    -moz-text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset
 .header-school
   height: 100vh
   background: url('/images/school/homepage-school/course-bg1.png')
@@ -39,27 +74,11 @@
     padding: 0
   .input-field
     input[type=search]
-      background: rgba(255,255,255,0)  
+      background: rgba(255,255,255,0)
   .input-field
     input[type=search]:focus
       background: rgba(255,255,255,0.1)
-  nav
-    background-color: rgba(239,168,0,0.3)
-    box-shadow: none
-  .sticky
-    background-color: rgba(0,96,150,0.9)
-    ul
-      li
-        a
-          color: #fff
-    .brand
-      line-height: 100px
-  .section
-    height: 0%
-  .brand
-    img
-      height: 2.5em
-      width: auto
+
 .school-content
   display: flex
   justify-content: center
@@ -67,17 +86,24 @@
   width: 100%
   height: 100vh
   .school-content-blog
-    background-color: rgba(255,255,255,0.2)
+    // background-color: rgba(255,255,255,0.2)
+    color: #302f3d
     word-wrap: break-word
-  h1
-    margin: 0
-    padding-top: 0.5em
-    padding-bottom: 0.5em
     text-align: center
-    color: #fff
-    font-size: 50px
-    font-weight: bolder
-    font-family: Quark-LightBold , verdana, helvetica, sans-serif
+  h1
+    display: inline-block
+    -webkit-box-sizing: content-box
+    -moz-box-sizing: content-box
+    box-sizing: content-box
+    padding: 25px
+    border: none
+    font: normal 60px/1 "Fredoka One", Helvetica, sans-serif
+    color: rgba(255,255,255,1)
+    text-align: center
+    -o-text-overflow: clip
+    text-overflow: clip
+    text-shadow: 3px 3px 0 #0199d9 , 4px 4px 0 #0199d9 , 5px 5px 0 #0199d9 , 6px 6px 0 #0199d9 , 7px 7px 0 #0199d9 , 8px 8px 0 #0199d9 , 9px 9px 0 #0199d9 , 10px 10px 0 #0199d9 , 11px 11px 0 #0199d9 , 12px 12px 0 #0199d9 , 13px 13px 0 #0199d9 , 14px 14px 0 #0199d9 , 15px 15px 0 #0199d9 , 16px 16px 0 #0199d9 , 17px 17px 0 #0199d9 , 18px 18px 0 #0199d9 , 19px 19px 0 #0199d9 , 20px 20px 0 #0199d9
+
 .parallax-container
   height: 80vh
 .new-course
@@ -90,16 +116,50 @@
   justify-content: center
 .recommended-course
   height: 80vh
+  text-align: center
+  h1
+    margin-top: 0.5em
+    margin-bottom: 0.5em
+    display: inline-block
+    -webkit-box-sizing: content-box
+    -moz-box-sizing: content-box
+    box-sizing: content-box
+    padding: 25px
+    border: none
+    font: normal 60px/1 "Fredoka One", Helvetica, sans-serif
+    color: rgba(255,255,255,1)
+    text-align: center
+    -o-text-overflow: clip
+    text-overflow: clip
+    text-shadow: 3px 3px 0 #ef5350 , 4px 4px 0 #ef5350 , 5px 5px 0 #ef5350 , 6px 6px 0 #ef5350 , 7px 7px 0 #ef5350 , 8px 8px 0 #ef5350 , 9px 9px 0 #ef5350 , 10px 10px 0 #ef5350 , 11px 11px 0 #ef5350 , 12px 12px 0 #ef5350 , 13px 13px 0 #ef5350 , 14px 14px 0 #ef5350 , 15px 15px 0 #ef5350 , 16px 16px 0 #ef5350 , 17px 17px 0 #ef5350 , 18px 18px 0 #ef5350 , 19px 19px 0 #ef5350 , 20px 20px 0 #ef5350
 .all-course
   background: url('/images/school/homepage-school/course-bg2.png')
   background-size: cover
   height: 130vh
+  text-align: center
+  h1
+    margin-top: 0.5em
+    margin-bottom: 0.5em
+    display: inline-block
+    -webkit-box-sizing: content-box
+    -moz-box-sizing: content-box
+    box-sizing: content-box
+    padding: 25px
+    border: none
+    font: normal 60px/1 "Fredoka One", Helvetica, sans-serif
+    color: rgba(255,255,255,1)
+    text-align: center
+    -o-text-overflow: clip
+    text-overflow: clip
+    text-shadow: 3px 3px 0 #ab47bc , 4px 4px 0 #ab47bc , 5px 5px 0 #ab47bc , 6px 6px 0 #ab47bc , 7px 7px 0 #ab47bc , 8px 8px 0 #ab47bc , 9px 9px 0 #ab47bc , 10px 10px 0 #ab47bc , 11px 11px 0 #ab47bc , 12px 12px 0 #ab47bc , 13px 13px 0 #ab47bc , 14px 14px 0 #ab47bc , 15px 15px 0 #ab47bc , 16px 16px 0 #ab47bc , 17px 17px 0 #ab47bc , 18px 18px 0 #ab47bc , 19px 19px 0 #ab47bc , 20px 20px 0 #ab47bc
 .footer-school
   height: 40vh
 ///Scholl Path
 .path-segment
   background-color: #fff
   width: 100%
+.path-section
+  padding-top: 10em
 .head-course
   display: flex
   flex-flow: row
@@ -109,6 +169,7 @@
   height: 25vh
   padding-left: 10em
   padding-right: 10em
+  margin-bottom: 3em
   .card-panel
     width: 40em
     text-align: center
@@ -178,20 +239,32 @@
   background-size: cover
 ///School Player
 .school-player-segment
-  background: url('/images/school/homepage-school/player-bg.png')
-  background-size: cover
-  height: 100vh
-  width: 100%
-  display: flex
-  justify-content: center
-  align-items: center
-  flex-flow: column
-  h2
-    color: #3066a3
-    text-align: right
-    font-weight: lighter
-    font-size: 30px
-    font-family: Quark-LightBold , verdana, helvetica, sans-serif
+  .section
+    height: 100%
+  .school-player-name
+    background: url('/images/school/homepage-school/player-bg.png')
+    background-size: cover
+    height: 100vh
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-flow: column
+    h2
+      margin-top: 0.5em
+      margin-bottom: 0.5em
+      display: inline-block
+      -webkit-box-sizing: content-box
+      -moz-box-sizing: content-box
+      box-sizing: content-box
+      padding: 25px
+      border: none
+      font: normal 60px/1 "Fredoka One", Helvetica, sans-serif
+      color: rgba(255,255,255,1)
+      text-align: center
+      -o-text-overflow: clip
+      text-overflow: clip
+      text-shadow: 3px 3px 0 #ef5350 , 4px 4px 0 #ef5350 , 5px 5px 0 #ef5350 , 6px 6px 0 #ef5350 , 7px 7px 0 #ef5350 , 8px 8px 0 #ef5350 , 9px 9px 0 #ef5350 , 10px 10px 0 #ef5350 , 11px 11px 0 #ef5350 , 12px 12px 0 #ef5350 , 13px 13px 0 #ef5350 , 14px 14px 0 #ef5350 , 15px 15px 0 #ef5350 , 16px 16px 0 #ef5350 , 17px 17px 0 #ef5350 , 18px 18px 0 #ef5350 , 19px 19px 0 #ef5350 , 20px 20px 0 #ef5350
 
 
 ///Navigator School
