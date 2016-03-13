@@ -66,7 +66,7 @@ School = React.createClass({
               <div className="row">
                 <div className="container">
                   <div className="container">
-                    <div className="col s12 m4">
+                    <div className="col s12 m12 l4">
                       <div className="card">
                         <div className="card-image waves-effect waves-block waves-light">
                           <img className="activator" src="images/school/course-item/meteor.png"/>
@@ -81,7 +81,7 @@ School = React.createClass({
                         </div>
                       </div>
                     </div>
-                    <div className="col s12 m4">
+                    <div className="col s12 m12 l4">
                       <div className="card">
                         <div className="card-image waves-effect waves-block waves-light">
                           <img className="activator" src="images/school/course-item/s.png"/>
@@ -96,7 +96,7 @@ School = React.createClass({
                         </div>
                       </div>
                     </div>
-                    <div className="col s12 m4">
+                    <div className="col s12 m12 l4">
                       <div className="card">
                         <div className="card-image waves-effect waves-block waves-light">
                           <img className="activator" src="images/school/course-item/react-js.png"/>
@@ -122,7 +122,7 @@ School = React.createClass({
             <div className="row">
               <div className="container">
                 <div className="container">
-                  <div className="col s12 m4">
+                  <div className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" src="images/school/course-item/js.png"/>
@@ -137,7 +137,7 @@ School = React.createClass({
                       </div>
                     </div>
                   </div>
-                  <div className="col s12 m4">
+                  <div className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" src="images/school/course-item/ep.png"/>
@@ -152,7 +152,7 @@ School = React.createClass({
                       </div>
                     </div>
                   </div>
-                  <div className="col s12 m4">
+                  <div className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" src="images/school/course-item/web.png"/>
@@ -174,7 +174,7 @@ School = React.createClass({
             <div className="row">
               <div className="container">
                 <div className="container">
-                  <div className="col s12 m4">
+                  <div className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" src="images/school/course-item/meteor.png"/>
@@ -189,7 +189,7 @@ School = React.createClass({
                       </div>
                     </div>
                   </div>
-                  <div className="col s12 m4">
+                  <div className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" src="images/school/course-item/s.png"/>
@@ -204,7 +204,7 @@ School = React.createClass({
                       </div>
                     </div>
                   </div>
-                  <div className="col s12 m4">
+                  <div className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image waves-effect waves-block waves-light">
                         <img className="activator" src="images/school/course-item/react-js.png"/>
