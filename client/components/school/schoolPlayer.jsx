@@ -9,8 +9,6 @@ Player = React.createClass({
   render(){
     return(
       <div className="school-player-segment">
-
-        <NavigatorSchoolMobile />
         <div className="section">
           <NavigatorSchool />
           <div className="school-player-name">

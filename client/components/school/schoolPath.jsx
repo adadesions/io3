@@ -49,17 +49,16 @@ Path = React.createClass({
     return(
       <div className="path-segment">
         <NavigatorSchool />
-        <NavigatorSchoolMobile />
         <div className="path-section">
           <div className="section">
             <div id="headCourse" className="head-course">
               <img src="/images/school/course-item/js-icon.png" className="circle" />
               <div className="card-panel pink accent-1">
                 <span className="white-text">
-                  <h4>SPEND SOME TIME WITH THIS POWERFUL
+                  <h3>SPEND SOME TIME WITH THIS POWERFUL
                   <br/>SCRIPTING LANGUAGE AND LEARN TO BUILD
                   <br/>LIGHTWEIGHT APPLICATIONS
-                  <br/>WITH ENHANCE USER INTERFACES.</h4>
+                  <br/>WITH ENHANCE USER INTERFACES.</h3>
                 </span>
               </div>
             </div>

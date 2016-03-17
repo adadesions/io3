@@ -44,7 +44,6 @@ School = React.createClass({
     return(
       <div className="school-blog">
         <NavigatorSchool />
-        <NavigatorSchoolMobile />
         <div className="header-school">
           <div className="section">
             <div className="school-content">
@@ -73,7 +72,7 @@ School = React.createClass({
                         </div>
                         <div className="card-content">
                           <span className="card-title activator grey-text text-darken-4">Meteor<i className="material-icons right">more_vert</i></span>
-                          <p><a href="/school/path">This is a link</a></p>
+                          <p><a href="/school/path">Let's Rock!!!</a></p>
                         </div>
                         <div className="card-reveal">
                           <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -88,7 +87,7 @@ School = React.createClass({
                         </div>
                         <div className="card-content">
                           <span className="card-title activator grey-text text-darken-4">Semantic<i className="material-icons right">more_vert</i></span>
-                          <p><a href="#">This is a link</a></p>
+                          <p><a href="#">Let's Rock!!!</a></p>
                         </div>
                         <div className="card-reveal">
                           <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -103,7 +102,7 @@ School = React.createClass({
                         </div>
                         <div className="card-content">
                           <span className="card-title activator grey-text text-darken-4">React<i className="material-icons right">more_vert</i></span>
-                          <p><a href="#">This is a link</a></p>
+                          <p><a href="#">Let's Rock!!!</a></p>
                         </div>
                         <div className="card-reveal">
                           <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -129,7 +128,7 @@ School = React.createClass({
                       </div>
                       <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">JavaScript<i className="material-icons right">more_vert</i></span>
-                        <p><a href="/school/path">This is a link</a></p>
+                        <p><a href="/school/path">Let's Rock!!!</a></p>
                       </div>
                       <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -144,7 +143,7 @@ School = React.createClass({
                       </div>
                       <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">English<i className="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                        <p><a href="#">Let's Rock!!!</a></p>
                       </div>
                       <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -159,7 +158,7 @@ School = React.createClass({
                       </div>
                       <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">Web<i className="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                        <p><a href="#">Let's Rock!!!</a></p>
                       </div>
                       <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -181,7 +180,7 @@ School = React.createClass({
                       </div>
                       <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">Meteor<i className="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                        <p><a href="#">Let's Rock!!!</a></p>
                       </div>
                       <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -196,7 +195,7 @@ School = React.createClass({
                       </div>
                       <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">Semantic<i className="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                        <p><a href="#">Let's Rock!!!</a></p>
                       </div>
                       <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
@@ -211,7 +210,7 @@ School = React.createClass({
                       </div>
                       <div className="card-content">
                         <span className="card-title activator grey-text text-darken-4">React<i className="material-icons right">more_vert</i></span>
-                        <p><a href="#">This is a link</a></p>
+                        <p><a href="#">Let's Rock!!!</a></p>
                       </div>
                       <div className="card-reveal">
                         <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
