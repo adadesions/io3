@@ -31,7 +31,7 @@ NavigatorSchool = React.createClass({
               <ul className="navbar">
                 <li>
                   <div className="chip">
-                    <img src="images/about/ceo.png"/>
+                    <img src="/images/about/ceo.png"/>
                     Ada Kaminkure
                   </div>
                   <a className="dropdown-button" href="#" dataActivates='user-menu'><i className="medium material-icons">settings</i></a>

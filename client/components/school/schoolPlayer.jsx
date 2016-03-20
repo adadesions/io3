@@ -20,6 +20,11 @@ Player = React.createClass({
             </div>
           </div>
         </div>
+        <div className="fixed-action-btn horizontal click-to-toggle">
+          <a href="/school/path" className="btn-floating btn-large teal">
+            <i className="material-icons">fast_rewind</i>
+          </a>
+        </div>
       </div>
     )
   }

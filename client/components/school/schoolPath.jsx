@@ -56,42 +56,15 @@ Path = React.createClass({
               <div className="card-panel pink accent-1">
                 <span className="white-text">
                   <h3>SPEND SOME TIME WITH THIS POWERFUL
-                  <br/>SCRIPTING LANGUAGE AND LEARN TO BUILD
-                  <br/>LIGHTWEIGHT APPLICATIONS
-                  <br/>WITH ENHANCE USER INTERFACES.</h3>
+                  SCRIPTING LANGUAGE AND LEARN TO BUILD
+                  LIGHTWEIGHT APPLICATIONS
+                  WITH ENHANCE USER INTERFACES.</h3>
                 </span>
               </div>
             </div>
           </div>
-
-
-          <div className="section">
-            <div className="path-blog">
-              <div className="col s12 m4">
-                <div id="levelOne" className="waves-effect waves-blue card-panel">
-                  <span className="white-text">
-                    <h1>LEVEL</h1>
-                    <h1>1</h1>
-                  </span>
-                </div>
-              </div>
-              <div className="col s12 m4">
-                  <div id="levelTwo" className="waves-effect waves-blue card-panel">
-                  <span className="white-text">
-                    <h1>LEVEL</h1>
-                    <h1>2</h1>
-                  </span>
-                </div>
-              </div>
-              <div className="col s12 m4">
-                <div id="levelThree" className="waves-effect waves-blue card-panel">
-                  <span className="white-text">
-                    <h1>LEVEL</h1>
-                    <h1>3</h1>
-                  </span>
-                </div>
-              </div>
-            </div>
+          <div className="section level">
+            <Level />
           </div>
 
 
@@ -130,6 +103,12 @@ Path = React.createClass({
                 </li>
               </ul>
             </div>
+          </div>
+
+          <div className="fixed-action-btn horizontal click-to-toggle">
+            <a href="/school" className="btn-floating btn-large teal">
+              <i className="material-icons">fast_rewind</i>
+            </a>
           </div>
         </div>
       </div>
