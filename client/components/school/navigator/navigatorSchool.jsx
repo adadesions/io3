@@ -30,10 +30,12 @@ NavigatorSchool = React.createClass({
               </div>
               <ul className="navbar">
                 <li>
-                  <div className="chip">
-                    <img src="/images/about/ceo.png"/>
-                    Ada Kaminkure
-                  </div>
+                  <a href="/school/profile">
+                    <div className="chip">
+                      <img src="/images/about/ceo.png"/>
+                      Ada Kaminkure
+                    </div>
+                  </a>
                   <a className="dropdown-button" href="#" dataActivates='user-menu'><i className="medium material-icons">settings</i></a>
                     <ul id='user-menu' className='dropdown-content'>
                       <li><a href="#">Logout</a></li>

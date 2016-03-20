@@ -29,3 +29,11 @@ FlowRouter.route('/school/path/player', {
       })
     }
 });
+
+FlowRouter.route('/school/profile', {
+    action: function(params) {
+      ReactLayout.render(Container, {
+        content: <Profile />
+      })
+    }
+});
